@@ -1,0 +1,22 @@
+{% extends base.html %}
+{% block content %}
+
+<form action="" method="POST">
+    <h3>Convert</h3>
+    <br>
+    
+    <label for="amount"></label>
+    <input type="text" id="amount" name="amount" placeholder="value in base currency">
+    <label for="base_currency"></label>
+    <input type="text" id="base_currency" name="base_currency" placeholder="base currency">
+    
+    <br>
+    <h3>to...</h3>
+    <br>
+    <label for="desired_currency"></label><br>
+    <input type="text" id="desired_currency" name="desired_currency" placeholder="desired currency">
+
+    <input type="submit" value="Submit">
+  </form> 
+
+{% endblock %}
