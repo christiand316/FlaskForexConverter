@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
-
-<form action="/convert" method="POST">
+<div class="form">
+<form onsubmit='return validateForm(event)' action="/convert" method="POST"> <!--action="/convert" method="POST"-->
     <h3>Convert</h3>
     <br>
     
@@ -18,5 +18,6 @@
 
     <input type="submit" value="Convert">
   </form> 
+</div>
 
 {% endblock %}

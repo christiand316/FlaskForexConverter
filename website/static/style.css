@@ -1,0 +1,41 @@
+/* CSS Document */
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	background:#EEEFF3 ;
+	margin:0px;
+	padding:0px;
+}
+
+
+.form {
+	padding-top: 25px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	scale: 125%;
+}
+h1 {
+	text-align: center;
+	margin:0px;
+padding:26px 0px 0px 47px;
+font-size:28px;
+color:black;
+font-family:Arial, Helvetica, sans-serif;
+}
+h2
+{margin:0px;
+padding:10px 0px 0px 47px;
+color:#FFFFFF;
+font-weight:200;
+font:25px Gill Sans Condensed, Myriad Pro, Arial, Helvetica, sans-serif;
+}
+
+h3
+{text-align:center;
+color:#000000;
+font-size:12px;
+font-weight:bold;
+margin:0px;
+padding:25px 0px 22px 0px;
+}
